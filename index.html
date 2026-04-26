@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaranta Radio Ulkantun Leufu - En Vivo</title>
+    <meta name="description" content="Medio de comunicación popular, alternativo y comunitario desde Nuestramérica">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #134e5e 0%, #71b280 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            width: 100%;
+            background: rgba(0,0,0,0.75);
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        h1 { 
+            color: #ffcc00; 
+            margin-bottom: 8px; 
+            font-size: 26px;
+            line-height: 1.3;
+        }
+        .tagline { 
+            color: #ccc; 
+            margin-bottom: 25px; 
+            font-size: 15px;
+        }
+        audio { 
+            width: 100%; 
+            margin: 25px 0; 
+            border-radius: 12px;
+            height: 50px;
+        }
+        .btn {
+            display: inline-block;
+            background: #ff6b35;
+            color: white;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            margin: 8px 5px;
+            transition: all 0.3s;
+        }
+        .btn:hover { 
+            background: #e55a2b; 
+            transform: translateY(-2px);
+        }
+        .estado {
+            margin: 20px 0;
+            padding: 12px;
+            background: rgba(40, 167, 69, 0.2);
+            border: 1px solid #28a745;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        .redes { 
+            margin-top: 30px; 
+            padding-top: 25px;
+            border-top: 1px solid #444;
+        }
+        .redes a { 
+            color: #ffcc00; 
+            margin: 0 12px; 
+            text-decoration: none; 
+        }
+        .footer {
+            margin-top: 25px; 
+            font-size: 13px; 
+            color: #aaa;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="font-size:55px; margin-bottom:10px;">🌎📻</div>
+        <h1>Amaranta Radio<br>Ulkantun Leufu</h1>
+        <p class="tagline">Medio de comunicación popular, alternativo y comunitario<br>Somos una red integrada por comunicadores/as populares de Nuestramérica</p>
+        
+        <div class="estado">
+            🔴 TRANSMITIENDO EN VIVO
+        </div>
+
+        <audio controls autoplay>
+            <source src="https://radios.liberaturadio.org/colectivochinata" type="audio/mpeg">
+            Tu navegador no soporta audio HTML5. <a href="https://radios.liberaturadio.org/colectivochinata">Escuchanos directo acá</a>.
+        </audio>
+        
+        <div>
+            <a class="btn" href="https://radios.liberaturadio.org/colectivochinata.m3u">Abrir en VLC</a>
+        </div>
+
+        <div class="redes">
+            <p style="margin-bottom:15px;"><strong>Red de radios comunitarias</strong></p>
+            <a href="#" target="_blank">Facebook</a> | 
+            <a href="#" target="_blank">Instagram</a> |
+            <a href="#" target="_blank">WhatsApp</a>
+        </div>
+        
+        <p class="footer">
+            Transmitiendo desde Alderetes, Tucumán<br>
+            G-Radio + BUTT + Mbojera Linux + Software Libre
+        </p>
+    </div>
+</body>
+</html>
